@@ -27,29 +27,28 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
-/* This is very useful when using it for website design. The website the design is written is going to be useful*/
-
-/* Use can use order to place things in the footers etc*/
-
-/* if you try to select the order that the HTML is in despite what can be seen on the screen. this will be an issue if you want to copy text  */
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
+  border:10px solid mistyrose;
+  height:100vh;
+  align-items:flex-start;
 }
 
-/* This will take what we are using and evenly distribute it equally */
 .box {
-  flex: 1;
+  width:33.333%;
 }
 
-/* Order will simply take the number and place it onto the end of the axis. All the numbers start ar 0 (like an array and go from there )*/
-
-.box3 {
-  order: 1;
+.box2 {
+  padding-bottom: 200px;
 }
 
-/* we can place the -1 to be placed at the beginning of the axis */
-.box7 {
-  order: -1;
+.box6 {
+  padding-bottom: 0;
+}
+
+.box9 {
+  padding-bottom: 50px;
+  align-self:stretch;
 }
