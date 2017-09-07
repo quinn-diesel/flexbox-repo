@@ -31,24 +31,30 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
+  justify-content: flex-end;
   border:10px solid mistyrose;
-  height:100vh;
-  align-items:flex-start;
+  flex-direction: column;
+  min-height:100vh;
 }
 
-.box {
-  width:33.333%;
-}
+/*
+ - justify content: how are things aligned to the main axis
+- flex-start starts on the left hand side
+- flex-end starts on the right hand side
+- center - don't have to use center to center everything
+- space-between - gives everything a space between themselves
+- space-around - gets things on the left and the right
 
-.box2 {
-  padding-bottom: 200px;
-}
 
-.box6 {
-  padding-bottom: 0;
-}
+- switching flex-direction
+- flex-direction - remember it is automatically set to row
+- column will completely change what you are looking at
 
-.box9 {
-  padding-bottom: 50px;
-  align-self:stretch;
-}
+how to vertically center -
+justify-content: center;
+flex-directionL: column;
+
+always make sure to stop and ask yourself where is your main axis and how is it working with the page
+
+
+*/
