@@ -83,22 +83,28 @@ a:hover {
     flex-basis: 100%;
   }
 
-  /* can add some css animations so we can use those */
-  .flex-nav ul.open {
+  /* this is the wrapper for the whole div that will make all the children flex items*/
+  .wrapper {
     display: flex;
+    flex-direction: column;
   }
 
-  /* everything below is ordered already, the bottom ones are going to be appended at the bottom*/
-  .top {
-    order: 2;
+  /* *> every immediate children of the wrapper, same number will go in the same order as the hmtl/ DOM */
+  .wrapper > * {
+    order:9999;
   }
 
-  .details {
-    order: 3;
+  /* remember that the default order will be a 0 like an array */
+  .flex-nav {
+    order: 1;
   }
 
-  .singup {
-    order: 4;
+  .toggleNav{
+    dispaly: block;
+  }
+
+  .flex-nav ul {
+    display: none;
   }
 
 }

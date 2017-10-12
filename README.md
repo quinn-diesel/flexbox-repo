@@ -159,4 +159,11 @@ NOTES NOTES NOTES
 
 14 - Pure Flexbox Navigation
 - Navigation are one of the best things to use navigation with
-- 
+- Had to change where the src of the autoprefixer is looking and where I had to set up it up to use
+- there is no flexbox in the math that I am going to do
+- it's about throwing elements at the div that we want to work with. there is no problem with adding things back to 100%
+- the ul is going to be the nav container
+
+15 - Mobile content reordering with Flexbox
+- you can use slideToggle to toggle when things go off and on again
+- can't use slideToggle and have to toggle our own class of toggle
