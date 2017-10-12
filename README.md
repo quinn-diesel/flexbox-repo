@@ -180,3 +180,7 @@ lazygit 'can nest flexbox in each other so the items can align more easily. howe
 
 18 - Flexbox equal height columns and leftover elements
 - it's about making the extra space 0 for the grow
+- you can use the grow of 0 in order to create extra space for the flex justify. you can also use the calc(% - px) in order to make sure that the divs dont
+
+19 - Flexbox in single line height
+- 
