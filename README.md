@@ -130,4 +130,33 @@ NOTES NOTES NOTES
 
 
 12 - Flex-Basis and Wrapping working together
+- flex-basis: 500px
+- when you turn on wrap the items will be getting their correct sizes
+- then turn on flex-grow: 1
+- since flexwrap is turned on
+- grow, shrink and basis will only effect the row that it is being applied to
+- what happens when you change the axis to column?
+- items will stack vertically
+- you will need to make sure to have a min-height 100vh
+- the change to the px will be given to each of the divs
+- the browsers will scroll
+- it's all about the way things are stretching and working together for the divs
+
+----- everything here will be codealongs -------
+
+13 - Cross Browser Support and Autoprefixer
+- we can run the flexbox through a compiler
+- it's called Autoprefixer - takes the latest and greatest flexbox code and pre-fix all the possible vendor prefixes
+- autoprefixer will change all the elements that you want to do
+- the idea is to write the code and then compile the code into what you want to use
+- GULP is what we are going to use
+- package json track the version and plugins that need to install
+- touch gulpfile.js
+- npm install gulp --save-dev - install gulp for us
+- npm install gulp-autoprefixer --save-dev
+- the way it works is you choose gulp as the src to use and then you pipe the information into the autoprefixer and pipe it into an output directory
+- gulp is an easy way to make sure flexbox is accessible to all of the browsers
+
+14 - Pure Flexbox Navigation
+- Navigation are one of the best things to use navigation with
 - 
