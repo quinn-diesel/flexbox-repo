@@ -95,7 +95,7 @@ NOTES NOTES NOTES
 - this is so you can choose one item you want to do
 
 10 - Flexbox sizing with the flex property
-- flex: grow, basis,
+- flex: grow, basis, - use a number like 1, 2, 3 etc
 - flex: answers the question with the extra space OR if there is NO extra
 - flexbox will intelligently look at where everything needs to go
 - width of the items will be auto - which is the content inside of it
@@ -109,4 +109,25 @@ NOTES NOTES NOTES
 - it's all about the space that will be divied up between all div items
 
 11 - Flex- GROW, SHRINK and basis
+- flex - grow, basis and SHRINK
+- flex-grow: 1 this is a short hand for when you have extra space how much should something take up
+- flex-basis - before you start taking space how high/ low should things be?
+- what happens when there is extra room
+- if there is grow on one and not the other than it will take up the remaining space
+- basis will be used with grow and shrink
+- the default of everything is 0
+- everything will than work the same as the flex property normally
+- when the browser changes size to be under?
+- elements will start to chop them down.
+- this is because there is no WRAPPING!
+- make sure to add the wrapping so when the screen changes size it will wrap down automatically
+- when there is no enough room, evenly divide everything amongst itself
+- shrink - how much of something should it give up when the box is shrinking
+- it's about how much they will grow/ shrink when the screen changes size
+- order first GROW, then SHRINK then BASIS in a single line
+- can be done in one line, set it in the short-hand and work out the layout that you need to use
+- give up hard widths but that is the whole point of flexbox
+
+
+12 - Flex-Basis and Wrapping working together
 - 
