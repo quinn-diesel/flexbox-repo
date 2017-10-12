@@ -173,3 +173,8 @@ NOTES NOTES NOTES
 - remember to give everything a red border in order to see what is going on with what you are doing
 - we want the list items and the links to stretch all the way
 - when nesting you have add a span to all the elements in the html
+lazygit 'can nest flexbox in each other so the items can align more easily. however when we are doing if there is no child element in the flex item then a span can be added. then flex basis can be made 100%'
+
+17 - Flexbox Pricing Grid
+- when you apply margin to an item with an explicit width, it will eat into the content you are using
+-
