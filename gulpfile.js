@@ -3,7 +3,7 @@ var autoprefixer = require('gulp-autoprefixer');
 
 
 gulp.task('styles', function (){
-  gulp.src('15-mobile-content/styles.css')
+  gulp.src('16-nesting-flexbox/styles.css')
     .pipe(autoprefixer())
     .pipe(gulp.dest('output'))
 });

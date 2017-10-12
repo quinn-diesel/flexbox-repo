@@ -147,7 +147,7 @@ NOTES NOTES NOTES
 13 - Cross Browser Support and Autoprefixer
 - we can run the flexbox through a compiler
 - it's called Autoprefixer - takes the latest and greatest flexbox code and pre-fix all the possible vendor prefixes
-- autoprefixer will change all the elements that you want to do
+- autoprefixer will change a the elements that you want to do
 - the idea is to write the code and then compile the code into what you want to use
 - GULP is what we are going to use
 - package json track the version and plugins that need to install
@@ -167,3 +167,9 @@ NOTES NOTES NOTES
 15 - Mobile content reordering with Flexbox
 - you can use slideToggle to toggle when things go off and on again
 - can't use slideToggle and have to toggle our own class of toggle
+
+16 - NESTING vertical and horizontal centering
+- How to add the css and html in order to nest the different things
+- remember to give everything a red border in order to see what is going on with what you are doing
+- we want the list items and the links to stretch all the way
+- when nesting you have add a span to all the elements in the html
