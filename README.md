@@ -177,4 +177,6 @@ lazygit 'can nest flexbox in each other so the items can align more easily. howe
 
 17 - Flexbox Pricing Grid
 - when you apply margin to an item with an explicit width, it will eat into the content you are using
--
+
+18 - Flexbox equal height columns and leftover elements
+- it's about making the extra space 0 for the grow
